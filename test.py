@@ -1,1 +1,1 @@
-#проверка bpvtyt
+#проверка bpvtyt one way
