@@ -1,1 +1,1 @@
-#проверка bpvtyt one way
+#проверка bpvtyt one way ticket
