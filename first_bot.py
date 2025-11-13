@@ -8,5 +8,5 @@ def handle_start(message):
     bot.send_message(message.chat.id, "Branch Test")
     bot.send_message(message.chat.id, "Commit Master")
     bot.send_message(message.chat.id, "Commit Test")
-    bot.send_message(message.chat.id, "Commit without_Rebase")
+    bot.send_message(message.chat.id, "Change Master")
 bot.polling(none_stop=True)
