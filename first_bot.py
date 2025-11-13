@@ -11,4 +11,5 @@ def handle_start(message):
     bot.send_message(message.chat.id, "Change Master")
     bot.send_message(message.chat.id, "Change test")
     bot.send_message(message.chat.id, "Changed in Github")
+    bot.send_message(message.chat.id, "Changed in Home")
 bot.polling(none_stop=True)
