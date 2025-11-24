@@ -9,7 +9,7 @@ buttons_name = ['добавить', 'удалить' , 'пример']
 
 @bot.message_handler(commands=['start'])
 def handle_start(message):
-    keyboard = types.ReplyKeyboardMarkup(buttons_name, row_width=2)
+    keyboard = types.ReplyKeyboardMarkup(buttons_name, resize_keyboard=True, one_time_keyboard=False)
     
     bot.reply_to(message, 'Привет! Я бот.', reply_markup=keyboard)
 
