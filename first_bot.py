@@ -11,9 +11,8 @@ buttons_name = ['добавить', 'удалить' , 'пример']
 def handle_start(message):
     keyboard = types.ReplyKeyboardMarkup(row_width=1)
         
-    button[0] = types.KeyboardButton('Кнопка 1')
-    button[1] = types.KeyboardButton('Кнопка 2')
-    
+    button = [types.KeyboardButton('Кнопка 1'), types.KeyboardButton('Кнопка 2')]
+        
     keyboard.add(button)
 
 
