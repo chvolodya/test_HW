@@ -2,6 +2,8 @@ import telebot
 from config import TG_token
 bot = telebot.TeleBot(TG_token)
 
+from telebot import types
+
 buttons_name = ['добавить', 'удалить' , 'пример']
 
 
