@@ -10,8 +10,15 @@ buttons_name = ['добавить', 'удалить' , 'пример']
 @bot.message_handler(commands=['start'])
 def handle_start(message):
     keyboard = types.ReplyKeyboardMarkup(row_width=2)
-    buttons = [types.KeyboardButton(buttons_name[i]) for i in range(len(buttons_name))]
-    keyboard.add(buttons)
+        
+    button1 = types.KeyboardButton('Кнопка 1')
+    button2 = types.KeyboardButton('Кнопка 2')
+    button3 = types.KeyboardButton('Кнопка 3')
+    keyboard.add(button1, button2, button3)
+
+
+    #buttons = [types.KeyboardButton(buttons_name[i]) for i in range(len(buttons_name))]
+    #keyboard.add(buttons)
     bot.reply_to(message, 'Привет! Я бот.', reply_markup=keyboard)
 
 
