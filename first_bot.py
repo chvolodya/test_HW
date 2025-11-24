@@ -13,8 +13,8 @@ def handle_start(message):
         
     button = [types.KeyboardButton('Кнопка 1'), types.KeyboardButton('Кнопка 2')]
         
-    keyboard.add(button)
-
+    keyboard.add(button[0])
+    keyboard.add(button[1])
 
     #buttons = [types.KeyboardButton(buttons_name[i]) for i in range(len(buttons_name))]
     #keyboard.add(buttons)
